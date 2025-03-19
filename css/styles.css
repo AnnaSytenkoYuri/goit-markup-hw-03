@@ -1,0 +1,133 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    background-color: white;
+    color: rgba(67, 68, 85, 1);
+   }
+
+header {
+    background-color: white;
+}
+.logotype {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logstudio {
+    color: #2e2f42;
+}
+ul {
+    list-style-type: none;
+}
+.navigation-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: #404bbf;
+}
+.item-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+
+}
+.item-link:hover,
+.item-link:focus {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+.company-contacts {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.section-one {
+    background-color: #2e2f42;
+} 
+   
+.title-one {
+font-size: 56px; 
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: white;
+
+}
+
+.type-button {
+    background-color: rgba(77, 90, 229, 1);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.type-button:hover,
+.type-button:focus {
+    background-color: #404BBF;
+}
+
+.title-two {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.title-three {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.section-three{
+    background-color: #F4F4FD 
+}
+
+.our-team-list {
+    background-color: white;
+}
+
+
+.foot {
+    background-color:  #2e2f42; 
+}
+.logstudio-f {
+    color: #f4f4fd;
+}
+.footer-paragraf {
+    color: rgba(244, 244, 253, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
