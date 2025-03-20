@@ -39,6 +39,15 @@ h1, h2, h3, h4, h5, h6, p {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
 header {
     background-color: white;
 }
@@ -54,8 +63,19 @@ header {
 .logstudio {
     color: #2e2f42;
 }
+ .header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+ }
 
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .navigation-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -67,20 +87,29 @@ header {
 .navigation-link:focus {
     color: #404bbf;
 }
-.item-link {
+.contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455
 
 }
-.item-link:hover,
-.item-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 .company-contacts {
     letter-spacing: 0.02em;
