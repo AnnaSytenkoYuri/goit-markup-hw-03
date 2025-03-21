@@ -47,6 +47,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px;
 }
 .header-nav {
     display: flex;
@@ -303,7 +304,7 @@ margin-right: auto;
     margin-left: auto;
 }
 
-.footer-logo {
+.logotype-footer {
     margin-bottom: 16px;
     display: inline-block;
 }
