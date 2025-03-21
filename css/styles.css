@@ -131,7 +131,8 @@ text-align: center;
 letter-spacing: 0.02em;
 color: white;
 padding-bottom: 48px;
-
+font-weight: 700;
+font-size: 56px;
 }
 
 .type-button {
@@ -245,8 +246,52 @@ padding-bottom: 48px;
     height: 56px;
 }
 
+.container-section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-right: auto; 
+    margin-left: auto;
+    width: 1128px;
+    height: 1000px;
+}
+
+.container-section-four-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 2*24px)/ 3);
+    width: 1128px;
+    height: 104px;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.our-portfolio-item-descr {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
+    border-left: 1px solid #E7E9FC;
+    border-top: 0px;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+    display: inline-block;
+}
 .foot {
     background-color:  #2e2f42; 
+    height: 312px;
 }
 .logstudio-f {
     color: #f4f4fd;
@@ -257,4 +302,5 @@ padding-bottom: 48px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 }
