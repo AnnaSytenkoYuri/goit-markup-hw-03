@@ -33,10 +33,23 @@ img {
 
 .container {
     width: 1158px;
-    max-width: 1128px;
     padding: 0 15px;
     margin: 0 auto;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 /* header */
 
@@ -47,7 +60,6 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    width: 1158px;
 }
 .header-nav {
     display: flex;
@@ -149,15 +161,10 @@ margin-right: auto;
     min-width: 169px;
     height: 56px;
     border: none;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 10px;
     border-radius: 4px;
     padding: 16px 32px;
     margin: auto;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: rgba(77, 90, 229, 1);
     color: white;
     font-weight: 500;
